@@ -1,0 +1,73 @@
+html {
+    height: auto;
+}
+
+#map {
+    position:absolute;
+    top: 0;
+    left: 0px;
+    bottom:0;
+    right:0;
+}
+
+body {
+    margin: 0px;
+    background-color: #aabbcc;
+}
+
+div#info div.text {
+  margin-bottom:10px;
+}
+
+
+.microtabs {
+    margin: 0;
+    max-width: 800px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.microtabs-button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-family: Segoe UI, Helvetica, Arial;
+}
+
+.microtabs-button:hover {
+    color: #abcdef;
+}
+
+.microtabs-selected {
+    background-color: #fff;
+    color: #333;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.microtabs-element {
+    background-color: #fff;
+    color: #555;
+    padding: 10px;
+}
+
+.microtabs-header {
+    margin-bottom: -1px;
+}
+
+.microtabs-container {
+    border: 1px solid black;
+}
+
+div#autocomplete-box {
+    position:absolute;
+    top: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    color: #555;
+    left: 230px;
+    padding: 6px;
+}
