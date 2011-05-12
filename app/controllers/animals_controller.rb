@@ -2,7 +2,7 @@ class  AnimalsController < ApplicationController
     respond_to :html, :json
 
   def index
-    @animals = params[:term].blank? ? [] : Animal.where(["name LIKE ?", "%#{params[:term]}%"]).all.uniq(&:name)
+    @animals = params[:term].blank? ? [] : Animal.where(["name LIKE ?", "%#{params[:term]}%"]).limit(30).all.uniq(&:name)
     respond_with(@animals.map(&:name))
   end
 
